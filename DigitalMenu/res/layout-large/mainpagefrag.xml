@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<FrameLayout android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:gravity="center"
+    android:layout_alignParentTop="true"
+    >
+  
+   <View
+       android:layout_width="fill_parent"
+       android:layout_height="60dp"
+       android:layout_gravity="top" 
+       android:background="#AA000000"
+       ></View>
+<TextView
+        android:id="@+id/title"
+        android:text="@string/text_hoes_here_lol"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+
+        android:layout_gravity="top|right" 
+        android:textSize="30dp"
+        android:textColor="@android:color/white"
+       />
+
+<ImageView 
+   android:id="@+id/settings_image"
+   android:src="@drawable/image_settings"
+ android:layout_alignParentRight="true"
+ android:layout_gravity="top|right" 
+   android:layout_toRightOf="@+id/title"
+   android:paddingBottom="5dp"
+ android:layout_margin="10dp"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content">
+   </ImageView>    
+
+</FrameLayout>
+
+<ImageView 
+   android:id="@+id/test_image"
+   android:src="@drawable/image_menu"
+  android:layout_marginTop="5dp"
+   android:contentDescription="@string/menu_display_image"
+   android:layout_below="@+id/frameLayout"
+   android:scaleType="fitXY"
+   android:layout_width="fill_parent"
+   android:layout_height="300dp">
+   </ImageView>  
+
+<LinearLayout android:id="@+id/butnLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    
+    android:layout_below="@+id/test_image"
+    android:orientation="horizontal">
+<Button
+        android:id="@+id/fragment_button_center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top" 
+        android:textSize="18dp"
+        android:text="@string/add_to_my_menu_"
+       	android:background="@drawable/butt_purple"
+        android:shadowRadius="10"
+        android:shadowColor="@android:color/white"
+        android:shadowDx="1"
+		android:shadowDy="1"
+		android:layout_weight="50"
+		android:padding="5dp"
+       />
+<Button
+        android:id="@+id/fragment_button_left"
+        android:padding="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top" 
+        android:textSize="18dp"
+        android:text="View Order State"
+       	android:background="@drawable/butt_other"
+        android:shadowRadius="10"
+        android:shadowColor="@android:color/white"
+        android:shadowDx="1"
+		android:shadowDy="1"
+		android:layout_weight="50"
+       />
+</LinearLayout>
+<ScrollView  android:id="@+id/scrolllayout"
+      android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/butnLayout"
+      
+       >
+        
+<TextView
+        android:id="@+id/description"
+        android:text=" Welcome to Demo Restauarnt,\nPlease Take your time to peruse this Digital Menu. Choose an Iten from the left sidebar and add to to your order by pressing the blue button."
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+        android:textSize="20dp"
+		android:layout_gravity="center" 
+		 android:layout_below="@+id/butnLayout"
+		
+       />
+</ScrollView>
+</RelativeLayout>
+
+
+ <!-- android:text=" Welcome to Demo Restauarnt, From a luscious slice of the Cheesecake Factory’s Godiva chocolate cheesecake to a meal of Rainbow and Negihama rolls from Hapa Sushi or our very own Barbeque Chicken Pizza for a crowd, we have it all.\nPlease Take your time to peruse this Digital Menu. Choose an Iten from the left sidebar and add to to your order by pressing the blue button." -->

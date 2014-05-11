@@ -1,0 +1,42 @@
+ <?php
+
+//header("Content-type: text/xml");
+
+$host = "localhost";
+$user = "root";
+$pass = "santhu";
+$database = "menu";
+
+$linkID = mysql_connect($host, $user, $pass) or die("Could not connect to host.");
+mysql_select_db($database, $linkID) or die("Could not find database.");
+
+$query = "SELECT * FROM soups";
+$resultID = mysql_query($query, $linkID) or die("Data not found.");
+
+$xml_output = "<?xml version=\"1.0\"?>\n";
+$xml_output .= "<todoitems>\n";
+
+for($x = 0 ; $x < mysql_num_rows($resultID) ; $x++){
+    $row = mysql_fetch_assoc($resultID);
+    $xml_output .= "\t<item>\n";
+    $xml_output .= "\t\t<id>" . $row['id'] . "</id>\n";
+    $xml_output .= "\t\t<title>" . $row['item'] . "</title>\n";
+    $xml_output .= "\t\t<description>" . $row['description'] . "</description>\n";
+    $xml_output .= "\t\t<price>" . $row['rate'] . "</price>\n";
+    $xml_output .= "\t\t<pic>" . $row['image'] . "</pic>\n";
+    $xml_output .= "\t</item>\n";
+}
+
+$xml_output .= "</todoitems>";
+$myFile = "testFile.xml";
+$fh = fopen($myFile, 'w') or die("can't open file");
+//$stringData = "Bobby Bopper\n";
+fwrite($fh,  $xml_output);
+//$stringData = "Tracy Tanner\n";
+//fwrite($fh, $stringData);
+fclose($fh);
+
+//echo $xml_output;
+
+?>
+

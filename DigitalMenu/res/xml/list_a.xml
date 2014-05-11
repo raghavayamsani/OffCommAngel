@@ -1,0 +1,71 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<todoitems>
+    <item 
+	    id="0"
+	    title="Crab Cake" 
+	    description="A green surig of coriander on a sumptious slice of crab meat delight." 
+	    price="120"
+	    pic="pic01.png"/>
+    <item 
+	    id="1"
+	    title="Chocolate" 
+	    description="A rich creamy chocolate delight of thick creamy chocolate sauce on a hot fresh pancake." 
+	    price="200"
+	    pic="pic02.png"/>
+    <item 
+	    id="2"
+	    title="Steak Sirloin" 
+	    description="A Think rump of meat roasted to perfection and accompanied by an illegal sauce." 
+	    price="34"
+	    pic="pic03.png"/>
+    
+	<item 
+	    id="3"
+	    title="Paneer Fritter" 
+	    description="Paneer fritters are a unique preparation of chilli garlic flavoured paneer coated with crushed papad and deep-fried to perfect golden brown. The innovative use of papad instead of bread crumbs makes it all the more crisp and flavourful. It is a wonderful accompaniment to tea or juice and will be loved by all." 
+	    price="120"
+	    pic="starter_paneer.png"/>
+    <item 
+	    id="4"
+	    title="Pithore" 
+	    description="We have made a quick and healthy version of the lip-smacking rajasthani snack by dressing up protein and iron rich besan and methi leaves in enticing, tangy flavours. All the fibre makes this a good choice for diabetics too." 
+	    price="200"
+	    pic="starter_pithore.png"/>
+    <item 
+	    id="5"
+	    title="Cutlet" 
+	    description="Vegetable cutlets,a great combination of vegetables and spices. . . It can be kept inside a burger bun or eaten as it is with tomato ketchup. . " 
+	    price="150"
+	    pic="starter_cutlet.png"/>
+    <item 
+	    id="6"
+	    title="Sprouts Tikki" 
+	    description="Let’s give a healthy twist to the evergreen aloo tikki! using sprouted moong increases the nutrient-value by at least 15 per cent, while coriander and mint give an aromatic spin to the tale. Serve these fibre-rich tikkis hot and crisp, as soon as you prepare them." 
+	    price="120"
+	    pic="starter_sprouts.png"/>
+    <item 
+	    id="7"
+	    title="Chicken Liver" 
+	    description="A rich, sweet pâté recipe using pineau - a sherry-like aperitif - great as a dinner party starter." 
+	    price="200"
+	    pic="starter_chicken.png"/>
+    <item 
+	    id="8"
+	    title="Steak Sirloin" 
+	    description="A Think rump of meat roasted to perfection and accompanied by an illegal sauce." 
+	    price="34"
+	    pic="pic03.png"/>
+    <item 
+	    id="9"
+	    title="Crab Cake" 
+	    description="A green surig of coriander on a sumptious slice of crab meat delight." 
+	    price="120"
+	    pic="pic01.png"/>
+   <item 
+	    id="10"
+	    title="Paneer Fritter" 
+	    description="Paneer fritters are a unique preparation of chilli garlic flavoured paneer coated with crushed papad and deep-fried to perfect golden brown. The innovative use of papad instead of bread crumbs makes it all the more crisp and flavourful. It is a wonderful accompaniment to tea or juice and will be loved by all." 
+	    price="120"
+	    pic="starter_paneer.png"/>
+   
+</todoitems>

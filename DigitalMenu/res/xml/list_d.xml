@@ -1,0 +1,71 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<todoitems>
+    <item 
+	    id="0"
+	    title="Chocolate Dosa " 
+	    description="A rolled delight of culinary masterpiece that nations have gone to war for its recipie." 
+	    price="120"
+	    pic="pic10.png"/>
+    <item 
+	    id="1"
+	    title="Allegro Pasta" 
+	    description="A unique blend of a secret sauce as well as traditional pasta cooking techniques handed over from father to son over 20 generations." 
+	    price="110"
+	    pic="pic11.png"/>
+    <item 
+	    id="2"
+	    title="Chocolate Muffin" 
+	    description="A delight of culinary masterpiece that nations have gone to war for its recipie." 
+	    price="276"
+	    pic="pic12.png"/>
+  
+    <item 
+	    id="3"
+	    title="Ice   Lollies" 
+	    description="These lollies with fresh and frozen fruit, oats, juice and chocolate are perfect for the holidays" 
+	    price="110"
+	    pic="ice_lollies.png"/>
+    <item 
+	    id="4"
+	    title="Raspberry" 
+	    description="Fruity syllabub is such an easy dessert and looks gorgeous, especially with a pretty biscuit on top " 
+	    price="110"
+	    pic="raspberry.png"/>
+    <item 
+	    id="5"
+	    title="Strawberry" 
+	    description="Fruity syllabub is such an easy dessert and looks gorgeous, especially with a pretty biscuit on top " 
+	    price="110"
+	    pic="strawberry.png"/>
+    <item 
+	    id="6"
+	    title="Choclate Bars" 
+	    description=" You'll love these Chocolate-Mint Bars if you're a big fan of the thin chocolate-mint Girl Scout cookies or Andes candies. Refrigerating the bars allows the mint layer and glaze to set properly. For a more grown-up taste, you can substitute dark chocolate chips for some or all of the semisweet chocolate chips in the glaze." 
+	    price="120"
+	    pic="choc_bar.png"/>
+    <item 
+	    id="7"
+	    title="Chocolate Muffin" 
+	    description="A delight of culinary masterpiece that nations have gone to war for its recipie." 
+	    price="276"
+	    pic="pic12.png"/>
+    <item 
+	    id="8"
+	    title="Chocolate Dosa" 
+	    description="A rolled delight of culinary masterpiece that nations have gone to war for its recipie." 
+	    price="120"
+	    pic="pic10.png"/>
+    <item 
+	    id="9"
+	    title="Allegro Pasta" 
+	    description="A unique blend of a secret sauce as well as traditional pasta cooking techniques handed over from father to son over 20 generations." 
+	    price="110"
+	    pic="pic11.png"/>
+    <item 
+	    id="10"
+	    title="Chocolate Muffin" 
+	    description="A delight of culinary masterpiece that nations have gone to war for its recipie."  
+	    price="276"
+	    pic="pic12.png"/>
+
+</todoitems>

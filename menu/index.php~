@@ -1,0 +1,70 @@
+
+
+
+
+<?php
+include "connection.php";
+error_reporting(E_ALL);
+ini_set( 'display_errors','1'); 
+if(isset($_POST['signin'])){
+if(isset($_POST['username'])&&isset($_POST['password'])){
+if(!empty($_POST['username']) && !empty($_POST['password'])){
+$username=$_POST['username'];
+$password=$_POST['password'];
+$username = stripslashes($username);
+$password = stripslashes($password);
+$username = mysql_real_escape_string($username);
+$password = mysql_real_escape_string($password);
+$sql="SELECT * FROM admin WHERE username='$username' and password='$password'";
+$result=mysql_query($sql);
+
+// Mysql_num_row is counting table row
+$count=mysql_num_rows($result);
+
+// If result matched $myusername and $mypassword, table row must be 1 row
+
+if($count==1){
+
+// Register $myusername, $mypassword and redirect to file "login_success.php"
+session_register("username");
+session_register("password");
+header("location:mainpage/main.php");
+}
+else {
+echo "Wrong Username or Password";
+}
+
+
+}
+
+}
+
+}
+?>
+
+<html>
+<head>
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="signin.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+
+ <div class="container">
+
+      <form class="form-signin" role="form" method="post" action="index.php" >
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <input type="text" class="form-control" name="username" placeholder="User Name" required autofocus>
+        <input type="password" class="form-control" name="password" placeholder="Password" required>
+        <label class="checkbox">
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+        <button class="btn btn-lg btn-primary btn-block" name="signin" type="submit">Submit</button>
+      </form>
+
+    </div> 
+
+</body>
+
+</html>

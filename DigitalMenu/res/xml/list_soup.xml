@@ -1,0 +1,84 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<todoitems>
+    <item 
+	    id="0"
+	    title="Tomato Soup" 
+	    description="This delicious and comforting soup tastes like it took hours to make, yet is ready to eat in just 20 minutes. Provide a toppings bar of crumbled bacon, shredded cheddar cheese, and thinly sliced green onions so family members can pick and choose their favorites." 
+	    price="100"
+	    pic="tomato_soup.png"/>
+     <item 
+	    id="1"
+	    title="Veg Hot n Sour" 
+	    description="This delicious and comforting soup tastes like it took hours to make, yet is ready to eat in just 20 minutes. Provide a toppings bar of crumbled bacon, shredded cheddar cheese, and thinly sliced green onions so family members can pick and choose their favorites." 
+	    price="150"
+	    pic="veg_hot_soup.png"/>
+    <item 
+	    id="2"
+	    title="Potatao Soup" 
+	    description="This delicious and comforting soup tastes like it took hours to make, yet is ready to eat in just 20 minutes. Provide a toppings bar of crumbled bacon, shredded cheddar cheese, and thinly sliced green onions so family members can pick and choose their favorites." 
+	    price="100"
+	    pic="potato_soup.png"/>
+    
+	<item 
+	    id="3"
+	    title="Corn Soup" 
+	    description="This delicious and comforting soup tastes like it took hours to make, yet is ready to eat in just 20 minutes. Provide a toppings bar of crumbled bacon, shredded cheddar cheese, and thinly sliced green onions so family members can pick and choose their favorites." 
+	    price="120"
+	    pic="corn_soup.png"/>
+    <item 
+	    id="4"
+	    title="Chilled Mint" 
+	    description="This delicious and comforting soup tastes like it took hours to make, yet is ready to eat in just 20 minutes. Provide a toppings bar of crumbled bacon, shredded cheddar cheese, and thinly sliced green onions so family members can pick and choose their favorites." 
+	    price="130"
+	    pic="mint_soup.png"/>
+    <item 
+	    id="5"
+	    title="Hot n Sour" 
+	    description="This delicious and comforting soup tastes like it took hours to make, yet is ready to eat in just 20 minutes. Provide a toppings bar of crumbled bacon, shredded cheddar cheese, and thinly sliced green onions so family members can pick and choose their favorites." 
+	    price="160"
+	    pic="chickn_hot_soup.png"/>
+    <item 
+	    id="6"
+	    title="Noodle Soup" 
+	    description="This delicious and comforting soup tastes like it took hours to make, yet is ready to eat in just 20 minutes. Provide a toppings bar of crumbled bacon, shredded cheddar cheese, and thinly sliced green onions so family members can pick and choose their favorites." 
+	    price="120"
+	    pic="noodle_soup.png"/>
+    <item 
+	    id="7"
+	    title="Vegetable Soup" 
+	    description="This delicious and comforting soup tastes like it took hours to make, yet is ready to eat in just 20 minutes. Provide a toppings bar of crumbled bacon, shredded cheddar cheese, and thinly sliced green onions so family members can pick and choose their favorites." 
+	    price="100"
+	    pic="vegetable_soup.png"/>
+   <item 
+	    id="8"
+	    title="Chicken Noodle" 
+	    description="This delicious and comforting soup tastes like it took hours to make, yet is ready to eat in just 20 minutes. Provide a toppings bar of crumbled bacon, shredded cheddar cheese, and thinly sliced green onions so family members can pick and choose their favorites." 
+	    price="180"
+	    pic="chickn_noodle_soup.png"/> 
+    
+     <item 
+	    id="9"
+	    title="Almond Soup" 
+	    description="Almonds are “brain-friendly” foods as they help enhance its function. Here’s a rich and tasty soup that does wonders for your brain." 
+	    price="150"
+	    pic="almond_soup.png"/>
+     <!-- <item 
+	    id="9"
+	    title="Crab Cake" 
+	    description="A green surig of coriander on a sumptious slice of crab meat delight." 
+	    price="120"
+	    pic="pic01.png"/>
+    <item 
+	    id="10"
+	    title="Chocolate Pancakes" 
+	    description="A rich creamy chocolate delight of thick creamy chocolate sauce on a hot fresh pancake." 
+	    price="200"
+	    pic="pic02.png"/> -->
+    <!-- <item
+        id="11"
+        description="A Think rump of meat roasted to perfection and accompanied by an illegal sauce."
+        pic="pic03.png"
+        price="34"
+        title="Steak Sirloin"/> -->
+
+</todoitems>

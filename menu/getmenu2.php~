@@ -1,0 +1,27 @@
+<?php
+
+
+$a=mysql_connect('localhost','root', 'santhu');
+
+$b=mysql_select_db('menu',$a);
+
+
+$table='soups';
+
+$fet=mysql_query('select id,item,description,rate,image from '.$table);
+$json = array();
+while($r=mysql_fetch_array($fet)){
+   
+  $json["id"] = $r[0];
+  $json["item"]=$r[1];
+  $json["description"]=$r[2];
+  $json["rate"]=$r[3];
+  $json['image']=base64_encode($r['image']);
+}
+
+echo $json_data=json_encode($json);
+
+?>
+
+
+
